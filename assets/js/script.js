@@ -4,7 +4,8 @@
 // WHEN I open the planner
 // THEN the current day is displayed at the top of the calendar
 
-
+var currentDay = luxon.DateTime.now()
+$("#currentDay").text(currentDay);
 
 
 // WHEN I scroll down
