@@ -4,12 +4,14 @@
 // WHEN I open the planner
 // THEN the current day is displayed at the top of the calendar
 
-var currentDay = luxon.DateTime.now()
+var currentDay = luxon.DateTime.now().toFormat("MMMM dd, yyyy, h:mm:ss a")
 $("#currentDay").text(currentDay);
 
 
 // WHEN I scroll down
 // THEN I am presented with time blocks for standard business hours
+
+
 
 
 
