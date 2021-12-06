@@ -11,7 +11,6 @@ body {
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
-    flex-flow: column;
   }
   
   .jumbotron {
@@ -38,12 +37,10 @@ body {
     border-radius: 15px;
   }
   
-  /* ADDED FLEX FLOW */
   .row {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;;
-    flex-flow: column;
   }
   
   .hour {
